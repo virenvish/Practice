@@ -47,7 +47,6 @@ function UpdateTodoList(todoItem = null, operation) {
                 deleteButton.className="deleteBtn"
                 deleteButton.innerHTML = "<span>Delete</span>";
                 deleteButton.addEventListener("click", (e)=>{
-                  //deleteItem(e,liItem);
                   UpdateTodoList(liItem.id,"-");
                 }); 
 
@@ -82,8 +81,3 @@ function UpdateTodoList(todoItem = null, operation) {
 //Invoking the List to update.
 UpdateTodoList();
 
-
-function deleteItem(event,any){  
-  console.log(event);
-  console.log(any);
-}
