@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    margin: 10px auto;
+    padding:5px auto;
+}
+
+h1 {
+    margin:2px auto;
+    padding: 2px auto; 
+    color: red;
+}
+
+#div-result {
+    margin:10px auto;
+}
+
+ul {
+    margin:10px auto;
+    list-style: none; 
+} 
+
+ul li {
+    margin:10px auto;
+    list-style: none; 
+} 
+ 
+
+ul li .li-item { 
+    min-width: 14em;
+}
+
+.deleteBtn {
+    margin-left: 1em;
+    
+}
